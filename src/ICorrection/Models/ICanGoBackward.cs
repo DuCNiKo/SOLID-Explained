@@ -1,6 +1,6 @@
 ﻿namespace Models
 {
-    public interface ICanGoBackward
+    public interface ICanGoBackward : IVehicule
     {
         string MoveBackward();
     }

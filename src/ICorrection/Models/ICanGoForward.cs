@@ -1,6 +1,6 @@
 ﻿namespace Models
 {
-    public interface ICanGoForward
+    public interface ICanGoForward : IVehicule
     {
         string MoveForward();
     }
