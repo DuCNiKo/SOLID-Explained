@@ -43,6 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Car.cs" />
+    <Compile Include="Models\DieselEngine.cs" />
+    <Compile Include="Models\Dragster.cs" />
+    <Compile Include="Models\ElectricEngine.cs" />
+    <Compile Include="Models\EngineFactory.cs" />
+    <Compile Include="Models\EngineType.cs" />
+    <Compile Include="Models\FuelEngine.cs" />
+    <Compile Include="Models\ICanGoBackward.cs" />
+    <Compile Include="Models\ICanGoForward.cs" />
+    <Compile Include="Models\IEngine.cs" />
+    <Compile Include="Models\IVehicule.cs" />
+    <Compile Include="Models\VehiculeOutputManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
